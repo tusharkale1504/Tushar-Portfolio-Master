@@ -43,3 +43,128 @@
     border-radius: 5px; 
     transition: width 1s ease-in-out; 
 }
+
+ #education {
+    background: linear-gradient(45deg,  #e2b3f8, #e1aef8);
+    
+
+        background-size: 300% 300%;
+       
+    }
+
+    @keyframes gradientAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    /* Progress Bars */
+    .progress-bar {
+        transition: width 1s ease-in-out;
+    }
+
+
+    #projects {
+        background-color: #f0f8ff; /* Light blue background */
+        color: #003366; /* Dark blue text color */
+    }
+    
+    #projects h2 {
+        color: #003366; /* Dark blue heading */
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .card {
+        border: 1px solid #003366; /* Dark blue border */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-title {
+        color: #003366; /* Dark blue card title */
+        font-weight: bold;
+    }
+    
+    .card-text {
+        color: #004080; /* Slightly lighter blue for text */
+    }
+    
+    .btn-primary {
+        background-color: #0056b3; /* Blue button background */
+        border-color: #0056b3; /* Match button border with background */
+        color: #ffffff; /* White text */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+        background-color: #004080; /* Darker blue on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+    #contact {
+        background: linear-gradient(135deg, #9552dd, #77a2ec); /* Gradient background */
+        color: white; /* Text color */
+    }
+    
+    #contact h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    #contact p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    
+    #contact .social-links a {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 30px;
+        color: white;
+        text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    #contact .social-links a:hover {
+        transform: translateY(-3px); /* Slight lift effect on hover */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Hover shadow */
+    }
+    
+    #contact .btn-primary {
+        background-color: #0e76a8; /* LinkedIn blue */
+        border: none;
+    }
+    
+    #contact .btn-danger {
+        background-color: #f7731b; /* Instagram pink */
+        border: none;
+    }
+    
+    #contact .btn-success {
+        background-color: #25d366; /* WhatsApp green */
+        border: none;
+    }
+    
+    #contact .btn-primary:hover {
+        background-color: #084a84; /* Darker LinkedIn blue on hover */
+    }
+    
+    #contact .btn-danger:hover {
+        background-color: #e9622d; /* Darker Instagram pink on hover */
+    }
+    
+    #contact .btn-success:hover {
+        background-color: #1c9e51; /* Darker WhatsApp green on hover */
+    }
+    
+    
